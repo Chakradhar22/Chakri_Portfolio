@@ -1,0 +1,12 @@
+@tailwind base;
+@layer base {
+  html {
+    @apply text-gray-800;
+  }
+}
+body.sidebar-open {
+  overflow-x: hidden;
+}
+
+@tailwind components;
+@tailwind utilities;
